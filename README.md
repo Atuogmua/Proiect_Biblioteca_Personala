@@ -1,2 +1,2 @@
-# Proiect_Biblioteca_Personala
- 
+# Biblioteca Personala
+Acest proiect reprezinta o lista a cartilor din biblioteca personala.
