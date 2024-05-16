@@ -1,12 +1,22 @@
 import json
 import pandas as pd
 import streamlit as st
+import numpy as np
+
+
 st.header("Biblioteca persoanala")
-tab =st.dataframe()
+tab = pd.DataFrame(columns=("Denumire","Autor","Recenzie proprie"))
+
+st.dataframe(tab)  # Same as st.write(df)
 buton = st.button("Add new row")
 
 st.write("value:", buton)
 if buton == True:
-    st.write("a")
+    st.write(":blue[a]")
+    denumire = st.text_input("Denumire")
+    autor = st.text_input("Autor")
+    rec_prop =
+    df = pd.DataFrame(columns = (denumire, autor, rec_prop))
+    #tab.add_row("Denumire":denumire)
     buton = False
-i2 = st.checkbox("reset button")
+st.write("value:", buton)
